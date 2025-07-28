@@ -1,7 +1,7 @@
-import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { useState } from "react";
 import Alert from "../components/Alert";
-import { Particles } from "../components/Particles";
+import { BackgroundBeams } from "../components/Particles";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -30,16 +30,16 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_qtom4fh",
+        "template_xqdpr87",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Guru",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "gurunivasanv@gmail.com",
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        "RgC8cmQBZ7RoZon4t"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
@@ -51,21 +51,17 @@ const Contact = () => {
     }
   };
   return (
-    <section className="relative flex items-center c-space section-spacing">
-      <Particles
+    <section className="relative flex items-center justify-center px-5 py-10 pd-20 mx-auto section-spacing bg-gradient-to-b from-primary to-secondary" id="contact">
+      <BackgroundBeams
         className="absolute inset-0 -z-50"
-        quantity={100}
-        ease={80}
-        color={"#ffffff"}
-        refresh
       />
       {showAlert && <Alert type={alertType} text={alertMessage} />}
       <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            Whether you're loking to build a new website or software, improve your existing
+            platform, or bring a unique project to life, I'm here to help 👈(ﾟヮﾟ👈)
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>

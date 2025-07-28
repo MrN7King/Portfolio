@@ -1,328 +1,161 @@
 export const myProjects = [
   {
-    id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-];
+  id: 1,
+  title: "Cafe POS Application",
+  description:
+    "A full-featured Point of Sale system developed for a café in Sri Lanka, supporting order management, inventory tracking, and Uber Eats report parsing.",
+  subDescription: [
+    "Built as a Java desktop application using JavaFX and SceneBuilder for GUI design.",
+    "Integrated MySQL database with phpMyAdmin for backend management.",
+    "Included modules for sales analytics, inventory, and order processing.",
+    "Enabled Uber Eats CSV report parsing and PDF exports using PDFBox.",
+  ],
+  href: "https://github.com/MrN7King/DiPraNuThiGuSu-POS",
+  logo: "",
+  image: "/assets/projects/Cafe.png",
+  tags: [
+    { id: 1, name: "Java", path: "/assets/logos/java.svg" },
+    { id: 2, name: "CSS", path: "/assets/logos/css3.svg" },
+    { id: 3, name: "MySQL", path: "/assets/logos/sql.svg" },
+    { id: 4, name: "PDFBox", path: "/assets/logos/apache.svg" },
+  ],
+},
+{
+  id: 2,
+  title: "Static Property Advertisement Website",
+  description:
+    "A responsive static website created for showcasing a real estate property with clean visual presentation and mobile-first layout.",
+  subDescription: [
+    "Designed a sleek layout to highlight property features and surroundings.",
+    "Optimized for all screen sizes using Tailwind CSS.",
+    "Focused on simplicity, performance, and clarity for real estate listings.",
+    "Implemented Facebook Pixels, Conversion API tracking, and cookie management through Google Tag Manager (GTM).",
+  ],
+  href: "https://dilaksan2005.github.io/Property-Website/",
+  logo: "",
+  image: "/assets/projects/property.jpeg",
+  tags: [
+    { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
+    { id: 2, name: "TailwindCSS", path: "/assets/logos/tailwindcss.svg" },
+    { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+    { id: 4, name: "GTM", path: "/assets/logos/gtm.svg" },
+  ],
+},
+{
+  id: 3,
+  title: "Finance Tracking Mobile App",
+  description:
+    "An Android application for tracking personal expenses, visualizing spending habits, and maintaining a daily budget.",
+  subDescription: [
+    "Developed with Java and Android SDK for mobile functionality.",
+    "Used SQLite for offline data persistence and local storage.",
+    "Implemented chart visualizations using MPAndroidChart.",
+    "Included authentication, CRUD, and intuitive UI/UX design.",
+  ],
+  href: "https://github.com/MrN7King/ExpenseTracker",
+  image: "/assets/projects/finance-app.png",
+  tags: [
+    { id: 1, name: "Java", path: "/assets/logos/java.svg" },
+    { id: 2, name: "Android SDK", path: "/assets/logos/android.svg" },
+    { id: 3, name: "SQLite", path: "/assets/logos/sqlite.svg" },
+    { id: 4, name: "MPAndroidChart", path: "/assets/logos/chart.svg" },
+  ],
+},
+
+ {
+  id: 4,
+  title: "E-commerce for Digital Products",
+  description:
+    "A full-stack e-commerce platform for selling premium accounts and downloadable e-books with secure payment and user access control.",
+  subDescription: [
+    "Built with the MERN stack for a scalable architecture.",
+    "Implemented authentication, protected routes, and RBAC to handle premium products.",
+    "Integrated payment gateway and automated order confirmation.",
+    "Developed an admin dashboard to manage products, users, and order history.",
+  ],
+  href: "", 
+  image: "/assets/projects/bookstore.jpeg",
+  tags: [
+    { id: 1, name: "MongoDB", path: "/assets/logos/mongodb.svg" },
+    { id: 2, name: "Express.js", path: "/assets/logos/express.svg" },
+    { id: 3, name: "React", path: "/assets/logos/react.svg" },
+    { id: 4, name: "Node.js", path: "/assets/logos/node.svg" },
+  ],
+},
+]
 
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/qr/HT5JJK2H5GVXG1 ",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/v-gurunivasan/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    name: "GitHub",
+    href: "https://github.com/MrN7King",
+    icon: "/assets/socials/github.svg",
   },
+  
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    job: "Cambridge OLevels",
+    title: "Royal Institute International",
+    date: "2021-2022",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+" Achieved truly exceptional academic results in Cambridge OLevels, securing an impressive  6 A* and 2 A grades across all 8 subjects. This outstanding performance demonstrates a profound understanding and mastery of a diverse curriculum.",
+' Consistently excelled in challenging subjects, with A* grades indicating top-tier performance and a deep comprehension of complex concepts.',
+' Served as a Prefect at Royal Institute, demonstrating strong leadership qualities, responsibility, and a commitment to upholding school values by actively contributing to student discipline and welfare.',
+' Actively participated as a valuable member of the school football team, highlighting teamwork, discipline, and a well-rounded approach to extracurricular activities and fostering school spirit.'
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    job: "Foundation in Information Technology",
+    title: "SLIIT ",
+    date: "2022-2023",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Developed a strong foundational understanding of core IT principles, including computer hardware, software, networking fundamentals, and operating systems.",
+      "Developed a strong foundational understanding of core IT principles, with practical experience in C++, C#, C, SQL, basic HTML, and Python, demonstrating versatility across multiple programming paradigms and essential web technologies.",
+      "Acquired essential knowledge in data structures, algorithms, and logical problem-solving, crucial for further specialization in the IT field.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    job: "Higher Diploma in Infomation Technology",
+    title: "SLIIT",
+    date: "2023-2025",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
+      "Completed a Higher Diploma in Information Technology, acquiring in-depth knowledge and practical skills across advanced programming concepts, including Java, Data Structures and Algorithms (DSA), and Design and Analysis of Algorithms (DAA).",
+      "Successfully developed and deployed a Cafe POS (Point of Sale) system for a client, managing the entire software development lifecycle from requirements gathering to implementation and testing, demonstrating strong project management and practical coding abilities.",
+      "Contributed significantly to a security checkup for a communication store, applying knowledge of cybersecurity principles to identify vulnerabilities and recommend improvements, highlighting an understanding of secure system practices.",
+        ],
+  },
+  {
+    job: "Software and Website Development",
+    title: "Freelancing",
+    date: "2025 Jan - April",
+    contents: [
+      "Successfully delivered a Static Property Advertisement Website for a client, building a responsive, promotional site with clean visuals and mobile-first design using HTML, Tailwind CSS, and JavaScript.",
+      "Developed an E-commerce Bookshop for a client, leveraging the MERN stack (MongoDB, Express.js, React, Node.js) for comprehensive full-stack functionality and utilizing Tailwind CSS for a responsive and intuitive user interface.",
+      "Engineered a Finance Tracking Mobile App (University Project) for Android, featuring local authentication, robust data persistence, full CRUD operations, and insightful visualizations to aid budget management, implemented with Java, Android SDK, SQLite, and MPAndroidChart.",
+      "Designed and built optimized static business websites and dynamic landing pages using technologies like Node.js, Firebase, and Nodemailer, ensuring high performance, SEO, and responsiveness to meet diverse client needs.",
+      "Pioneered clean and scalable User Interfaces (UIs) with HTML, CSS, and Tailwind CSS, consistently focusing on mobile-first design principles to enhance user experience across all devices.",
+      "Managed source control effectively using Git, ensuring seamless collaboration, efficient version tracking, and streamlined deployment processes across all freelance and project work.",
+        ],
+  },
+  {
+    job: "Bachelor's Degree in __________",
+    title: "University of Bedfordshire",
+    date: "2025-2026",
+    contents: [
+      "My next academic endeavor involves pursuing a Bachelor's degree in _____________, slated to begin this September",
+      "My achievements and personal projects will be updated."],
   },
 ];
-export const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
-  },
-  {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
-  },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
-  },
-];
+
+
